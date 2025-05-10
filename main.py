@@ -9,8 +9,8 @@ import openai
 
 # Load environment variables
 load_dotenv()
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("7561789883:AAHgUoiTbU_2OJCPB_IEg1Q9H7SvjmVIAk4")
+OPENAI_API_KEY = os.getenv("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")
 openai.api_key = OPENAI_API_KEY
 
 # Enable logging
